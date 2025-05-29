@@ -68,12 +68,14 @@
   </footer>
 
   <!-- CHAT DE N8N -->
-  <script type="module">
-    import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
-    createChat({
-      webhookUrl: https://hsyye.app.n8n.cloud/webhook/858814e2-0d4d-446d-8641-10ea5e7f259c/chat
-    });
-  </script>
+  <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl: 'YOUR_PRODUCTION_WEBHOOK_URL'
+	});
+</script>
 </body>
 </html>
