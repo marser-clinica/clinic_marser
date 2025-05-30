@@ -139,7 +139,7 @@
     import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
     createChat({
-      webhookUrl: 'https://tu-webhook-de-n8n/chat/clinica-marser' // REEMPLAZA AQUÍ CON TU URL
+      webhookUrl: https://hsyye.app.n8n.cloud/webhook-test/21531f35-2a63-4652-85a7-72703e93f162
     });
   </script>
 </body>
